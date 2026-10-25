@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skygea — AI-Enabled Product Engineering Studio</title>
+  <meta name="description" content="Skygea is a full-cycle AI product partner. We design, build, and ship enterprise-grade AI software in 8–10 weeks using agentic engineering workflows.">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Skygea — AI-Enabled Product Engineering Studio">
+  <meta property="og:description" content="Ship AI-enabled software in 8–10 weeks with world-class engineering talent and autonomous agent workflows.">
+  <meta property="og:image" content="./assets/images/skygea-emblem.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Skygea — AI-Enabled Product Engineering">
+  <meta name="twitter:description" content="Enterprise-grade quality at startup speed. Full-cycle AI engineering studio.">
+  <meta name="twitter:image" content="./assets/images/skygea-emblem.jpg">
+
+  <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/sections.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <link rel="icon" type="image/jpeg" href="./assets/images/skygea-emblem.jpg">
+</head>
+<body>
+  <!-- Ambient Background Noise Overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ========================================================================
+       HEADER & NAVIGATION
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" id="brandLogo" aria-label="Skygea Homepage">
+        <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Emblem" class="brand-emblem-icon">
+        <span>Skygea</span>
+        <span class="brand-tag">AI Labs</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <a href="#services" class="nav-link" id="navServices">Services</a>
+        <a href="#manifesto" class="nav-link" id="navManifesto">Why Skygea</a>
+        <a href="#work" class="nav-link" id="navWork">Our Work</a>
+        <a href="#insights" class="nav-link" id="navInsights">Insights</a>
+        <a href="#faq" class="nav-link" id="navFaq">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#estimate" class="btn-magic nav-cta-btn" id="headerCtaBtn" data-open-modal>Book a Consultation</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         HERO SECTION
+         ======================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-grid-pattern" aria-hidden="true"></div>
+      <div class="hero-ambient-glow" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="badge-live" id="heroLiveStatus">
+          <span class="pulse-dot"></span>
+          <span>Now Accepting Selected Projects for 2026/2027 Sprints</span>
+        </div>
+
+        <h1 class="hero-title" id="heroMainTitle">
+          <span class="hero-title-highlight">AI-enabled</span>
+          <span>product engineering</span>
+          <span class="hero-avatar-row">
+            <span class="hero-avatar-circle" title="Senior Engineering Mindset">
+              <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Engineering">
+            </span>
+            <span>humans</span>
+            <span class="hero-plus-symbol">+</span>
+            <span class="hero-avatar-circle" title="Autonomous Agent Swarms">
+              <div class="hero-avatar-icon">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path>
+                  <rect x="4" y="8" width="16" height="12" rx="3"></rect>
+                  <circle cx="9" cy="14" r="1.5" fill="currentColor"></circle>
+                  <circle cx="15" cy="14" r="1.5" fill="currentColor"></circle>
+                  <path d="M10 18h4"></path>
+                </svg>
+              </div>
+            </span>
+            <span class="text-gradient">AI</span>
+          </span>
+        </h1>
+
+        <p class="hero-description" id="heroSubText">
+          We architect and ship enterprise-grade, AI-enabled software in <strong>8–10 weeks</strong>, connecting innovative companies with world-class product engineering talent.
+        </p>
+
+        <div class="hero-cta-group">
+          <button type="button" class="btn-magic btn-primary" id="heroPrimaryCta" data-open-modal>
+            <span>Schedule Discovery Call</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+          
+          <a href="#work" class="btn-magic btn-secondary" id="heroSecondaryCta">
+            <span>Explore Featured Work</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         CLIENT & PARTNER MARQUEE
+         ======================================================================== -->
+    <section class="marquee-section" id="partnerMarquee" aria-label="Trusted by industry innovators">
+      <div class="marquee-track">
+        <!-- First Set -->
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>Synthetix AI</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m10 15 5-3-5-3v6Z"></path></svg>Publicis Global</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M7 7h10v10H7z"></path></svg>Gennext Cloud</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z"></path></svg>Likuid Spaces</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg>QuantumFlow</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>Aura BioTech</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>Apex Labs</div>
+
+        <!-- Repeated Set for Seamless Infinite Scroll -->
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>Synthetix AI</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m10 15 5-3-5-3v6Z"></path></svg>Publicis Global</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M7 7h10v10H7z"></path></svg>Gennext Cloud</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z"></path></svg>Likuid Spaces</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg>QuantumFlow</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>Aura BioTech</div>
+        <div class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>Apex Labs</div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SERVICES DIRECTORY
+         ======================================================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-top-row">
+          <div>
+            <p class="badge-pill">Capabilities</p>
+            <h2 class="section-title">Core Services</h2>
+          </div>
+          <p style="max-width: 420px; color: var(--text-muted); font-size: 0.95rem;">
+            Full-cycle product partnership. We eliminate agency overhead by uniting AI agent velocity with veteran engineering governance.
+          </p>
+        </div>
+
+        <ul class="service-list" id="serviceAccordionList">
+          <!-- Service 0.1 -->
+          <li class="service-item">
+            <button class="service-header" aria-expanded="false" id="serviceBtn1">
+              <span class="service-title">Product Engineering</span>
+              <span class="service-num">0.1</span>
+              <span class="service-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </span>
+            </button>
+            <div class="service-body">
+              <div class="service-body-inner">
+                <div>
+                  <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-secondary);">
+                    From raw concept to battle-tested production in 8–10 weeks. We handle the full technical spectrum: data modeling, multi-agent LLM pipelines, reactive UI, and cloud deployment.
+                  </p>
+                  <div class="service-features-list">
+                    <span class="badge-pill">Full-Stack AI Architecture</span>
+                    <span class="badge-pill">RAG & Vector Pipelines</span>
+                    <span class="badge-pill">Autonomous Agents</span>
+                    <span class="badge-pill">8–10 Week Sprint SMR</span>
+                  </div>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                  <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--cyan-primary);">Tech Stack</span>
+                  <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #ffffff;">Next.js 16, Python, FastAPI, Supabase, AWS, Docker, Anthropic & OpenAI APIs</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Service 0.2 -->
+          <li class="service-item">
+            <button class="service-header" aria-expanded="false" id="serviceBtn2">
+              <span class="service-title">Product Talent</span>
+              <span class="service-num">0.2</span>
+              <span class="service-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </span>
+            </button>
+            <div class="service-body">
+              <div class="service-body-inner">
+                <div>
+                  <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-secondary);">
+                    Augment your existing team with top 1% global engineers who leverage cutting-edge agentic toolchains to deliver 3x output without cultural friction or onboarding drag.
+                  </p>
+                  <div class="service-features-list">
+                    <span class="badge-pill">Starting at $30/Hour</span>
+                    <span class="badge-pill">Dedicated Squads</span>
+                    <span class="badge-pill">Zero Recruiting Overhead</span>
+                    <span class="badge-pill">Instant Sprint Match</span>
+                  </div>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                  <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--cyan-primary);">Engagement Model</span>
+                  <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #ffffff;">Embedded engineers, dedicated scrum units, monthly retainer or milestone-based contracts.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Service 0.3 -->
+          <li class="service-item">
+            <button class="service-header" aria-expanded="false" id="serviceBtn3">
+              <span class="service-title">Web Solutions & Systems</span>
+              <span class="service-num">0.3</span>
+              <span class="service-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </span>
+            </button>
+            <div class="service-body">
+              <div class="service-body-inner">
+                <div>
+                  <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-secondary);">
+                    High-performance modern web platforms, interactive digital experiences, and scalable design systems that look extraordinary, load instantaneously, and convert users into champions.
+                  </p>
+                  <div class="service-features-list">
+                    <span class="badge-pill">Ultra-Fast Performance</span>
+                    <span class="badge-pill">Dark Glassmorphism</span>
+                    <span class="badge-pill">Design Systems & Motion</span>
+                    <span class="badge-pill">Headless CMS & Commerce</span>
+                  </div>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                  <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--cyan-primary);">Deliverables</span>
+                  <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #ffffff;">Brand platforms, interactive marketing sites, SaaS interfaces, Figma design tokens.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         HIGH IMPACT SHOWCASE: "BUILD SMARTER PRODUCTS"
+         ======================================================================== -->
+    <section class="showcase-section" id="manifesto">
+      <div class="showcase-grid-bg" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="showcase-headline-wrap">
+          <!-- Floating Interactive Badges -->
+          <div class="floating-badge badge-left">
+            <div class="badge-icon-box" style="background: linear-gradient(135deg, #01e7fd 0%, #0350ca 100%); display:flex; align-items:center; justify-content:center; color:#000;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <div>
+              <p style="font-size: 0.85rem; font-weight: 700; color: #ffffff;">AI Engineering</p>
+              <p style="font-size: 0.75rem; color: var(--text-muted);">Claude Code | n8n | OpenAI</p>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-right">
+            <div class="badge-icon-box" style="background: linear-gradient(135deg, #8b5cf6 0%, #0350ca 100%); display:flex; align-items:center; justify-content:center; color:#fff;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+            </div>
+            <div>
+              <p style="font-size: 0.85rem; font-weight: 700; color: #ffffff;">Senior Dev Squads</p>
+              <p style="font-size: 0.75rem; color: var(--text-muted);">Next.js | Python | AWS</p>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom">
+            <div class="badge-icon-box" style="background: linear-gradient(135deg, #10b981 0%, #01e7fd 100%); display:flex; align-items:center; justify-content:center; color:#000;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 7h-7L10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"></path></svg>
+            </div>
+            <div>
+              <p style="font-size: 0.85rem; font-weight: 700; color: #ffffff;">Product & UI/UX</p>
+              <p style="font-size: 0.75rem; color: var(--text-muted);">Figma | Design Systems</p>
+            </div>
+          </div>
+
+          <div class="floating-stamp-badge">
+            <div class="rotating-stamp">
+              <svg viewBox="0 0 100 100">
+                <defs>
+                  <path id="stampPath" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"></path>
+                </defs>
+                <text fill="#ffffff" font-size="7.5" font-weight="600" letter-spacing="0.16em">
+                  <textPath href="#stampPath">SHIP IN 8–10 WEEKS • SKYGEA AI •</textPath>
+                </text>
+              </svg>
+              <div class="center-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="showcase-big-headline">
+            <span style="display: block; color: rgba(255, 255, 255, 0.95);">BUILD</span>
+            <span class="text-gradient" style="display: block;">SMARTER</span>
+            <span style="display: block; color: rgba(255, 255, 255, 0.95);">PRODUCTS</span>
+          </h2>
+        </div>
+
+        <!-- 3 Value Pillars -->
+        <div class="showcase-cards-grid">
+          <div class="value-card">
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600;">BUILT WITH AI</h3>
+                <span class="text-cyan">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v19M5 8l14 8M19 8L5 16"></path></svg>
+                </span>
+              </div>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">
+                Embed intelligence deep into your product foundation, not just a shallow prompt wrapper. We integrate neural logic, semantic search, and autonomous agent loops.
+              </p>
+            </div>
+            <div style="margin-top: 2rem; display: flex; align-items: center; justify-content: space-between; padding-top: 1.25rem; border-top: 1px solid var(--border-subtle);">
+              <span style="font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; color: #ffffff;">10+ Agents</span>
+              <span style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--cyan-primary);">Multi-Agent Swarms</span>
+            </div>
+          </div>
+
+          <div class="value-card">
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600;">SHIP IN WEEKS</h3>
+                <span class="text-cyan">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                </span>
+              </div>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">
+                Cut the 9-month development cycle down to 8–10 weeks. Our team uses AI-assisted workflows for code synthesis while humans govern quality, architecture, and security.
+              </p>
+            </div>
+            <div style="margin-top: 2rem; display: flex; align-items: center; justify-content: space-between; padding-top: 1.25rem; border-top: 1px solid var(--border-subtle);">
+              <span style="font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; color: #ffffff;">9.2 Weeks</span>
+              <span style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--cyan-primary);">Avg. Production Delivery</span>
+            </div>
+          </div>
+
+          <div class="value-card">
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600;">GLOBAL TALENT</h3>
+                <span class="text-cyan">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </span>
+              </div>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">
+                Access pre-vetted senior software engineers, AI researchers, and UI designers at a fraction of Silicon Valley burn rates, operating seamlessly within your time zone.
+              </p>
+            </div>
+            <div style="margin-top: 2rem; display: flex; align-items: center; justify-content: space-between; padding-top: 1.25rem; border-top: 1px solid var(--border-subtle);">
+              <span style="font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; color: #ffffff;">From $30/hr</span>
+              <span style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--cyan-primary);">Flexible Retainers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         THE PHILOSOPHY: "AI-ENABLED, NOT JUST AI"
+         ======================================================================== -->
+    <section class="thesis-section" id="philosophy">
+      <div class="container">
+        <div class="thesis-box">
+          <div class="corner-accent corner-tl"></div>
+          <div class="corner-accent corner-tr"></div>
+
+          <div>
+            <h2 class="thesis-headline">
+              AI-enabled, <br>
+              <span class="text-gradient">not just AI</span>.
+            </h2>
+            <p style="font-size: 1.15rem; color: #d1d5db; line-height: 1.7; max-width: 580px;">
+              Our engineers run disciplined agentic workflows. AI drafts boilerplate, senior engineers validate architecture, and automated + human QA verifies production readiness. The result: <strong>enterprise reliability at startup speed.</strong>
+            </p>
+
+            <div class="workflow-steps-grid">
+              <div class="workflow-step-card">
+                <div class="workflow-step-num">STEP 01</div>
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem;">AI Agents Draft</h4>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Scaffolding, boilerplate, unit tests, and baseline CRUD generated instantly.</p>
+              </div>
+              <div class="workflow-step-card">
+                <div class="workflow-step-num">STEP 02</div>
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem;">Senior Review</h4>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">System architecture, security audits, latency tuning, and edge-case handling.</p>
+              </div>
+              <div class="workflow-step-card">
+                <div class="workflow-step-num">STEP 03</div>
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem;">Production QA</h4>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">End-to-end load testing, staging validation, and continuous deployment.</p>
+              </div>
+            </div>
+
+            <div style="margin-top: 2.5rem;">
+              <button type="button" class="btn-magic btn-primary" data-open-modal>Estimate My Project</button>
+            </div>
+          </div>
+
+          <div class="thesis-image-wrapper">
+            <img src="./assets/images/skygea-emblem.jpg" alt="Skygea 3D Core Emblem" class="thesis-emblem">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         FEATURED WORK / CASE STUDIES
+         ======================================================================== -->
+    <section class="work-section" id="work">
+      <div class="container">
+        <div class="section-top-row">
+          <div>
+            <p class="badge-pill">Portfolio</p>
+            <h2 class="section-title">Featured Work</h2>
+          </div>
+          <button type="button" class="btn-magic" data-open-modal>Start Your Project</button>
+        </div>
+
+        <div class="work-grid">
+          <!-- Project 1: Aura AI -->
+          <article class="work-card col-span-8" style="grid-column: span 8;">
+            <div class="work-card-img-box">
+              <img src="./assets/images/work-aura-ai.jpg" alt="Aura AI Analytics Dashboard Mockup">
+            </div>
+            <div class="work-card-meta">
+              <div>
+                <h3 style="font-size: 1.35rem; font-weight: 600;">Aura AI — Predictive Operations Telemetry</h3>
+                <p class="work-tag-label">AI SaaS Dashboard • Real-Time Stream Analytics • Cloud Infrastructure</p>
+              </div>
+              <span class="service-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </span>
+            </div>
+          </article>
+
+          <!-- Project 2: PulseAI Bio -->
+          <article class="work-card col-span-4" style="grid-column: span 4;">
+            <div class="work-card-img-box">
+              <img src="./assets/images/work-pulse-bio.jpg" alt="Pulse AI Bio-Telemetry Diagnostics Platform">
+            </div>
+            <div class="work-card-meta">
+              <div>
+                <h3 style="font-size: 1.35rem; font-weight: 600;">Pulse BioTech</h3>
+                <p class="work-tag-label">HealthTech • 3D Biometrics • Real-Time AI</p>
+              </div>
+              <span class="service-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </span>
+            </div>
+          </article>
+
+          <!-- Project 3: Synthetix Multi-Agent Studio -->
+          <article class="work-card col-span-12" style="grid-column: span 12;">
+            <div class="work-card-img-box">
+              <img src="./assets/images/work-synthetix.jpg" alt="Synthetix AI Autonomous Workflow Platform">
+            </div>
+            <div class="work-card-meta">
+              <div>
+                <h3 style="font-size: 1.35rem; font-weight: 600;">Synthetix — Visual Autonomous Agent Studio</h3>
+                <p class="work-tag-label">Multi-Agent Orchestrator • Node-Based Flow Engine • Enterprise LLM Integration</p>
+              </div>
+              <span class="service-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Founder Spotlight Banner -->
+        <div class="founder-banner" id="leadershipBanner">
+          <div class="founder-info">
+            <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Leadership" class="founder-avatar">
+            <div>
+              <p style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color:#fff;">Skygea Leadership & Squad</p>
+              <p style="font-size: 0.85rem; color: var(--cyan-primary);">Ready to co-found your technical roadmap</p>
+            </div>
+          </div>
+          <p style="font-size: 1.1rem; color: #e2e8f0; max-width: 480px;">
+            Book a 20-minute architecture discovery call. We'll analyze your product spec and outline an 8–10 week delivery plan.
+          </p>
+          <button type="button" class="btn-magic btn-primary" data-open-modal>Book a Call</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         METRICS / NUMBERS SPEAK
+         ======================================================================== -->
+    <section class="numbers-section" style="padding: 6rem 0; background: rgba(0, 18, 52, 0.4);" id="metrics">
+      <div class="container">
+        <div style="margin-bottom: 3.5rem;">
+          <p class="badge-pill">Proof Points</p>
+          <h2 class="section-title">Numbers Speak</h2>
+          <p style="color: var(--text-muted); font-size: 1rem; margin-top: 0.5rem;">Measurable impact delivered across early-stage startups and enterprise scale-ups.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+          <div class="stat-card">
+            <div class="stat-value counter-val" data-target="48" data-suffix="+">0</div>
+            <div class="stat-label">Products Shipped</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value counter-val" data-target="15" data-suffix="">0</div>
+            <div class="stat-label">Countries Served</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value counter-val" data-target="9.2" data-suffix=" wks">0</div>
+            <div class="stat-label">Avg. MVP Delivery</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value counter-val" data-prefix="$" data-target="52" data-suffix="M+">0</div>
+            <div class="stat-label">Raised by Clients</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         TESTIMONIALS
+         ======================================================================== -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div>
+          <p class="badge-pill">Partner Endorsements</p>
+          <h2 class="section-title">Real Results. Real Stories.</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Skygea delivered our complete AI analytics platform in 9 weeks. The architecture is modular, ultra-fast, and their team felt like an internal senior tech squad rather than an outsourced agency."
+            </p>
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #01e7fd, #0350ca); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #000;">MK</div>
+              <div>
+                <p style="font-weight: 600; color: #ffffff;">Marcus Vance</p>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">CTO, Synthetix AI</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Their grasp of agentic workflows is genuine. They eliminated 200 hours of boilerplate coding with AI scaffolding, letting us concentrate budget on core algorithmic logic."
+            </p>
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #8b5cf6, #38f9d7); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #000;">SL</div>
+              <div>
+                <p style="font-weight: 600; color: #ffffff;">Sarah Lin</p>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Founder & CEO, PulseBio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Working with Skygea saved our seed round timeline. We launched an MVP that looked like a Series B product, winning both our enterprise pilots and investor enthusiasm."
+            </p>
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #10b981, #01e7fd); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #000;">DR</div>
+              <div>
+                <p style="font-weight: 600; color: #ffffff;">David Reynolds</p>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">VP of Engineering, Likuid Labs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         INSIGHTS / EDITORIAL
+         ======================================================================== -->
+    <section class="insights-section" id="insights" style="padding: 6rem 0;">
+      <div class="container">
+        <div class="section-top-row">
+          <div>
+            <p class="badge-pill">Knowledge Base</p>
+            <h2 class="section-title">Engineering Insights</h2>
+          </div>
+          <p style="max-width: 400px; color: var(--text-muted); font-size: 0.95rem;">
+            Deep dives into modern agentic frameworks, latency optimization, and AI design philosophy.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+          <article class="glass-card" style="padding: 1.5rem;">
+            <div style="border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.25rem;">
+              <img src="./assets/images/work-aura-ai.jpg" alt="AI design philosophy" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <span class="badge-pill" style="font-size: 0.7rem; margin-bottom: 0.75rem;">AI Systems</span>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; color:#fff;">Why the Most Advanced AI Products Look the Simplest</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">How reducing cognitive friction and invisible background agent reasoning builds lasting user trust.</p>
+          </article>
+
+          <article class="glass-card" style="padding: 1.5rem;">
+            <div style="border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.25rem;">
+              <img src="./assets/images/work-synthetix.jpg" alt="Agentic workflow architecture" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <span class="badge-pill" style="font-size: 0.7rem; margin-bottom: 0.75rem;">Architecture</span>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; color:#fff;">Agentic Workflows: Replacing 200 Hours of Boilerplate</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">A practical breakdown of how our squads deploy multi-agent swarms under senior human verification.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         INTERACTIVE FAQ
+         ======================================================================== -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="faq-layout">
+          <div>
+            <p class="badge-pill">Common Queries</p>
+            <h2 class="section-title">Questions, <br><span class="text-gradient">answered</span>.</h2>
+            <p style="margin-top: 1.25rem; color: var(--text-secondary); line-height: 1.7;">
+              The core questions founders and engineering leads ask before embarking on an 8–10 week sprint with Skygea.
+            </p>
+            <div style="margin-top: 2rem;">
+              <button type="button" class="btn-magic btn-primary" data-open-modal>Still Have Questions? Let's Talk</button>
+            </div>
+          </div>
+
+          <div class="faq-accordion" id="faqAccordion">
+            <!-- FAQ 1 -->
+            <div class="faq-item active">
+              <button class="faq-question-btn" id="faqBtn1">
+                <span>01. I have an idea but no technical co-founder. Can Skygea build it from scratch?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer" style="max-height: 300px;">
+                <div class="faq-answer-inner">
+                  Absolutely. This is our core specialty. You bring the domain problem, market insights, and customer access. We assign a dedicated cross-functional squad — senior full-stack engineer, AI architect, UX designer, and QA lead. We build the complete product from data modeling to production deployment in 8–10 weeks.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item">
+              <button class="faq-question-btn" id="faqBtn2">
+                <span>02. How do you handle AI latency, token costs, and model fallbacks?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  We architect AI features as production-grade distributed systems. That means implementing semantic caching, streaming responses, model tiering (fast small models for classification, frontier models for synthesis), automated retry fallbacks, and local rate-limit shields to guarantee predictable cloud bills.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item">
+              <button class="faq-question-btn" id="faqBtn3">
+                <span>03. Can you augment our existing engineering team without disruption?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  Yes. We begin with a 3-day discovery audit of your codebase, branching strategy, and sprint cadence. We then embed as a focused strike team owning specific epics (such as adding AI features or refactoring a bottleneck) without stepping on existing commits.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item">
+              <button class="faq-question-btn" id="faqBtn4">
+                <span>04. What actually makes Skygea different from traditional dev agencies?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  Traditional agencies bill for hundreds of hours of manual junior typing. At Skygea, our engineers run autonomous AI agent workflows for speed, while senior tech leads govern the architecture, security, and test suite. You get enterprise quality at startup speed and a transparent fixed-timeline commitment.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info Box -->
+        <div class="footer-brand-box">
+          <div>
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
+              <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Emblem" style="width: 38px; height: 38px; border-radius: 50%;">
+              <span style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #ffffff;">Skygea LLC</span>
+            </div>
+            <p style="font-size: 1.15rem; color: #ffffff; line-height: 1.4;">
+              AI-enabled products,<br>
+              <span style="color: var(--cyan-primary);">shipped in weeks.</span>
+            </p>
+          </div>
+
+          <div style="margin-top: 2.5rem;">
+            <p style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-muted); margin-bottom: 0.75rem;">Connect</p>
+            <div style="display: flex; gap: 0.75rem;">
+              <a href="https://github.com/thusharanavod123/skygea-2026-final-mission" target="_blank" rel="noopener noreferrer" class="btn-magic" style="padding: 0.5rem 0.9rem;" aria-label="Skygea GitHub">
+                GitHub
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-magic" style="padding: 0.5rem 0.9rem;" aria-label="Skygea LinkedIn">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Links & Newsletter Box -->
+        <div class="footer-nav-box">
+          <div class="footer-links-row">
+            <div>
+              <h4 class="footer-col-title">Navigation</h4>
+              <ul class="footer-link-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Featured Work</a></li>
+                <li><a href="#manifesto">Manifesto</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="footer-col-title">Solutions</h4>
+              <ul class="footer-link-list">
+                <li><a href="#services">Product Engineering</a></li>
+                <li><a href="#services">Embedded Talent ($30/hr)</a></li>
+                <li><a href="#services">Web & Design Systems</a></li>
+                <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="footer-col-title">Legal & Security</h4>
+              <ul class="footer-link-list">
+                <li><a href="#siteFooter">Privacy Policy</a></li>
+                <li><a href="#siteFooter">Terms of Engagement</a></li>
+                <li><a href="#siteFooter">SOC-2 Readiness</a></li>
+                <li><a href="#siteFooter">Security Practices</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.5rem;">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              © 2026 Skygea LLC. All rights reserved.
+            </p>
+
+            <form class="newsletter-form" style="display: flex; gap: 0.5rem; width: 100%; max-width: 360px;" id="newsletterForm">
+              <input type="email" placeholder="Enter your email" required class="form-input" style="padding: 0.65rem 1rem; font-size: 0.85rem; border-radius: var(--radius-full);">
+              <button type="submit" class="btn-magic btn-primary" style="padding: 0.65rem 1.25rem; font-size: 0.85rem;">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       INTERACTIVE PROJECT ESTIMATOR & DISCOVERY MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="consultationModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <button class="modal-close" id="modalCloseBtn" data-close-modal aria-label="Close Modal">✕</button>
+
+      <!-- Form View -->
+      <div id="formFieldsView">
+        <span class="badge-pill" style="margin-bottom: 0.75rem;">Fast-Track Consultation</span>
+        <h2 id="modalTitle" style="font-size: 2rem; margin-bottom: 0.5rem; color: #ffffff;">Schedule Discovery Call</h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem;">
+          Tell us about your project requirements to calculate estimated sprint duration and investment.
+        </p>
+
+        <form id="estimatorForm">
+          <!-- Step 1: Project Type -->
+          <div class="form-group">
+            <label class="form-label">1. Engagement Type</label>
+            <div class="chip-grid">
+              <label class="chip-option">
+                <input type="radio" name="project_type" value="mvp" checked>
+                <div class="chip-content">
+                  <span style="font-weight: 700; color:#fff;">New AI Product</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted);">8–10 Week Sprint</span>
+                </div>
+              </label>
+
+              <label class="chip-option">
+                <input type="radio" name="project_type" value="talent">
+                <div class="chip-content">
+                  <span style="font-weight: 700; color:#fff;">Product Talent</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted);">From $30/Hour</span>
+                </div>
+              </label>
+
+              <label class="chip-option">
+                <input type="radio" name="project_type" value="web">
+                <div class="chip-content">
+                  <span style="font-weight: 700; color:#fff;">Web Solutions</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted);">High-Speed Web App</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Step 2: Speed / Timeline -->
+          <div class="form-group">
+            <label class="form-label">2. Target Timeline</label>
+            <div class="chip-grid">
+              <label class="chip-option">
+                <input type="radio" name="speed" value="standard" checked>
+                <div class="chip-content">Standard (8–10 wks)</div>
+              </label>
+              <label class="chip-option">
+                <input type="radio" name="speed" value="accelerated">
+                <div class="chip-content">Accelerated (6–8 wks)</div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Interactive Calculator Output Display -->
+          <div id="estimatedBudget" style="padding: 1rem 1.25rem; border-radius: var(--radius-md); background: rgba(1, 231, 253, 0.08); border: 1px solid rgba(1, 231, 253, 0.25); font-weight: 600; font-size: 1.05rem; margin-bottom: 1.5rem; text-align: center;">
+            Estimated Investment: <span class="text-cyan">$15,000 – $25,000</span>
+          </div>
+
+          <!-- Contact Fields -->
+          <div class="form-group">
+            <label class="form-label" for="contactName">Your Name</label>
+            <input type="text" id="contactName" required class="form-input" placeholder="e.g. Alex Mercer">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="contactEmail">Work Email</label>
+            <input type="email" id="contactEmail" required class="form-input" placeholder="alex@company.com">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="projectBrief">Project Summary (Optional)</label>
+            <textarea id="projectBrief" rows="3" class="form-textarea" placeholder="Briefly describe what you're building or the roles needed..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-magic btn-primary" style="width: 100%; padding: 1rem; font-size: 1rem;">
+            Request Discovery Session & Estimate
+          </button>
+        </form>
+      </div>
+
+      <!-- Success Confirmation View -->
+      <div id="formSuccessView" style="display: none; text-align: center; padding: 2rem 0;">
+        <div style="width: 72px; height: 72px; border-radius: 50%; background: rgba(16, 185, 129, 0.2); border: 2px solid #10b981; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: #10b981;">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </div>
+        <h3 style="font-size: 1.8rem; margin-bottom: 0.75rem; color: #ffffff;">Discovery Request Confirmed!</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6; max-width: 440px; margin: 0 auto 1.5rem;">
+          Thank you! Our technical lead will review your requirements and send a calendar invitation for your 20-minute architecture session within 4 business hours.
+        </p>
+        <button type="button" class="btn-magic" data-close-modal>Back to Website</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript Modules -->
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
