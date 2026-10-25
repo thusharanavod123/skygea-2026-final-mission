@@ -1,5 +1,5 @@
 /* ==========================================================================
-   INTERACTIVE BACKGROUND & AMBIENT GLOW
+   INTERACTIVE BACKGROUND & AMBIENT GLOW (BLACK & ORANGE)
    Subtle mouse follower glow and interactive button micro-movements
    ========================================================================== */
 
@@ -13,7 +13,7 @@ export function initInteractiveBg() {
       width: 480px;
       height: 480px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(1, 231, 253, 0.07) 0%, rgba(3, 80, 202, 0.03) 50%, transparent 70%);
+      background: radial-gradient(circle, rgba(255, 94, 0, 0.09) 0%, rgba(217, 72, 15, 0.04) 50%, transparent 70%);
       pointer-events: none;
       z-index: 0;
       transform: translate(-50%, -50%);

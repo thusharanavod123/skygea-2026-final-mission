@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SKYGEA - BASE STYLES & RESET
+   SKYGEA - BASE STYLES & RESET (BLACK & ORANGE EDITION)
    ========================================================================== */
 
 *, *::before, *::after {
@@ -24,9 +24,9 @@ body {
   overflow-x: hidden;
   background-color: var(--color-bg-base);
   background-image: 
-    radial-gradient(circle at 50% 0%, rgba(3, 80, 202, 0.18) 0%, transparent 65%),
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    radial-gradient(circle at 50% 0%, rgba(255, 94, 0, 0.14) 0%, transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
   background-size: 100% 100%, 60px 60px, 60px 60px;
 }
 
@@ -40,18 +40,18 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(1, 231, 253, 0.25);
+  background: rgba(255, 94, 0, 0.3);
   border-radius: var(--radius-full);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(1, 231, 253, 0.5);
+  background: rgba(255, 94, 0, 0.65);
 }
 
 /* Selection */
 ::selection {
-  background-color: rgba(1, 231, 253, 0.3);
-  color: var(--cyan-primary);
+  background-color: rgba(255, 94, 0, 0.35);
+  color: #ffffff;
 }
 
 /* Typography Defaults */
@@ -111,8 +111,8 @@ button {
   background-clip: text;
 }
 
-.text-cyan {
-  color: var(--cyan-primary);
+.text-cyan, .text-orange {
+  color: var(--orange-primary);
 }
 
 /* Noise overlay */
