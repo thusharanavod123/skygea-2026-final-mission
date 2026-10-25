@@ -40,9 +40,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="#" class="brand-logo" id="brandLogo" aria-label="Skygea Homepage">
-        <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Emblem" class="brand-emblem-icon">
         <span>Skygea</span>
-        <span class="brand-tag">AI Labs</span>
       </a>
 
       <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
@@ -84,9 +82,6 @@
           <span class="hero-title-highlight">AI-enabled</span>
           <span>product engineering</span>
           <span class="hero-avatar-row">
-            <span class="hero-avatar-circle" title="Senior Engineering Mindset">
-              <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Engineering">
-            </span>
             <span>humans</span>
             <span class="hero-plus-symbol">+</span>
             <span class="hero-avatar-circle" title="Autonomous Agent Swarms">
@@ -713,14 +708,25 @@
         <!-- Brand Info Box -->
         <div class="footer-brand-box">
           <div>
-            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
-              <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Emblem" style="width: 38px; height: 38px; border-radius: 50%;">
-              <span style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #ffffff;">Skygea LLC</span>
+            <div class="footer-brand-header">
+              <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Globe Emblem" class="footer-globe-emblem">
+              <div>
+                <span class="footer-brand-name">Skygea</span>
+                <span class="brand-tag" style="margin-left: 0; margin-top: 4px; display: inline-block;">AI Labs</span>
+              </div>
             </div>
-            <p style="font-size: 1.15rem; color: #ffffff; line-height: 1.4;">
+            <p class="footer-brand-tagline">
               AI-enabled products,<br>
               <span style="color: var(--orange-primary);">shipped in weeks.</span>
             </p>
+            <div class="footer-global-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <span>Global Client Coverage (US • EU • APAC)</span>
+            </div>
           </div>
 
           <div style="margin-top: 2.5rem;">
@@ -771,8 +777,9 @@
           </div>
 
           <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.5rem;">
-            <p style="font-size: 0.85rem; color: var(--text-muted);">
-              © 2026 Skygea LLC. All rights reserved.
+            <p style="font-size: 0.85rem; color: var(--text-muted); display: inline-flex; align-items: center; gap: 0.6rem;">
+              <img src="./assets/images/skygea-emblem.jpg" alt="Skygea Emblem" style="width: 20px; height: 20px; border-radius: 50%; border: 1px solid rgba(255, 94, 0, 0.6); box-shadow: 0 0 10px rgba(255, 94, 0, 0.4);">
+              <span>© 2026 Skygea LLC. All rights reserved.</span>
             </p>
 
             <form class="newsletter-form" style="display: flex; gap: 0.5rem; width: 100%; max-width: 360px;" id="newsletterForm">
