@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="./css/components.css">
   <link rel="stylesheet" href="./css/sections.css">
   <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/anduril.css">
 
   <link rel="icon" type="image/jpeg" href="./assets/images/skygea-emblem.jpg">
 </head>
@@ -69,34 +70,22 @@
          HERO SECTION
          ======================================================================== -->
     <section class="hero-section" id="hero">
+      <div class="hero-media" aria-hidden="true">
+        <img src="./assets/images/skygea-emblem.jpg" alt="">
+      </div>
+      <div class="hero-scrim" aria-hidden="true"></div>
       <div class="hero-grid-pattern" aria-hidden="true"></div>
-      <div class="hero-ambient-glow" aria-hidden="true"></div>
 
       <div class="hero-content">
-        <div class="badge-live" id="heroLiveStatus">
+        <p class="hero-eyebrow" id="heroLiveStatus">
           <span class="pulse-dot"></span>
-          <span>Now Accepting Selected Projects for 2026/2027 Sprints</span>
-        </div>
+          Now accepting 2026 / 2027 sprints
+        </p>
 
         <h1 class="hero-title" id="heroMainTitle">
-          <span class="hero-title-highlight">AI-enabled</span>
+          <span>AI-enabled</span>
           <span>product engineering</span>
-          <span class="hero-avatar-row">
-            <span>humans</span>
-            <span class="hero-plus-symbol">+</span>
-            <span class="hero-avatar-circle" title="Autonomous Agent Swarms">
-              <div class="hero-avatar-icon">
-                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path>
-                  <rect x="4" y="8" width="16" height="12" rx="3"></rect>
-                  <circle cx="9" cy="14" r="1.5" fill="currentColor"></circle>
-                  <circle cx="15" cy="14" r="1.5" fill="currentColor"></circle>
-                  <path d="M10 18h4"></path>
-                </svg>
-              </div>
-            </span>
-            <span class="text-gradient">AI</span>
-          </span>
+          <span class="hero-title-accent">shipped in weeks.</span>
         </h1>
 
         <p class="hero-description" id="heroSubText">
@@ -106,17 +95,24 @@
         <div class="hero-cta-group">
           <button type="button" class="btn-magic btn-primary" id="heroPrimaryCta" data-open-modal>
             <span>Schedule Discovery Call</span>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               <line x1="5" y1="12" x2="19" y2="12"></line>
               <polyline points="12 5 19 12 12 19"></polyline>
             </svg>
           </button>
-          
+
           <a href="#work" class="btn-magic btn-secondary" id="heroSecondaryCta">
             <span>Explore Featured Work</span>
           </a>
         </div>
       </div>
+
+      <div class="hero-meta-strip">
+        <div class="hero-meta-item"><span class="hero-meta-key">Delivery</span><span class="hero-meta-val">8–10 Weeks</span></div>
+        <div class="hero-meta-item"><span class="hero-meta-key">Talent</span><span class="hero-meta-val">Top 1% Global</span></div>
+        <div class="hero-meta-item"><span class="hero-meta-key">Rate</span><span class="hero-meta-val">From $30 / hr</span></div>
+        <div class="hero-meta-item"><span class="hero-meta-key">Coverage</span><span class="hero-meta-val">US · EU · APAC</span></div>
+       </div>
     </section>
 
     <!-- ========================================================================
